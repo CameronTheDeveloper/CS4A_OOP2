@@ -2,6 +2,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 public class Main {
     public static void main(String[] args) {
         ArrayList<Vehicle> vehicles = new ArrayList<>();
@@ -24,6 +25,13 @@ public class Main {
             motorcycle.addService(new Service("Chain Adjustment", 60.00, "01-10-2024"));
             motorcycle.addService(new Service("Oil Change", 45.00, "02-15-2024"));
             vehicles.add(motorcycle);
+
+            // Uncomment these to test Vehicle class exceptions
+            // Motorcycle testBadLicensePlate = new Motorcycle("", "testMake", "testModel", 1901);
+            // Motorcycle testBadMake = new Motorcycle("testLicensePlate", "", "testModel", 1901);
+            // Motorcycle testBadModel = new Motorcycle("testLicensePlate", "testMake", "", 1901);
+            // Motorcycle testBadYear = new Motorcycle("testLicensePlate", "testMake", "testModel", 1899);
+            // Motorcycle testBadYear2 = new Motorcycle("testLicensePlate", "testMake", "testModel", 2028);
 
             // Display maintenance estimates
             System.out.println("Vehicle Maintenance Estimates:");

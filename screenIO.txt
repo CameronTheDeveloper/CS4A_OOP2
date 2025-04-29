@@ -1,0 +1,39 @@
+Vehicle Maintenance Estimates:
+Honda Civic (2016)   
+License Plate: CAR123
+Estimated Annual Maintenance Cost: $950.0
+
+Ford F-150 (2012)
+License Plate: TRK456
+Estimated Annual Maintenance Cost: $2100.0
+
+Yamaha YZF-R3 (2020)
+License Plate: MOTO789
+Estimated Annual Maintenance Cost: $500.0
+
+Service Histories:
+Honda Civic:
+
+Service Type: Oil Change
+Cost: $79.99
+Date: 03-01-2024
+
+Service Type: Tire Rotation
+Cost: $49.99
+Date: 04-15-2024
+
+Ford F-150:
+
+Service Type: Brake Replacement
+Cost: $300.00
+Date: 02-20-2024
+
+Yamaha YZF-R3:
+
+Service Type: Chain Adjustment
+Cost: $60.00
+Date: 01-10-2024
+
+Service Type: Oil Change
+Cost: $45.00
+Date: 02-15-2024
