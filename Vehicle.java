@@ -1,6 +1,6 @@
 import java.io.IOException;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Vehicle 
 {
@@ -104,12 +104,14 @@ public abstract class Vehicle
 
     String getSummary()
     {
-        System.out.println("Summary:\n");
+        StringBuilder summary = new StringBuilder();
 
         for (Service e : serviceHistory)
         {
-            System.out.println(e);
+            summary.append(e).append("\n");
         }
+
+        return summary.toString();
     }
 
 
